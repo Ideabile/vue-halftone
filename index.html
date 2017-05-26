@@ -56,7 +56,7 @@
         <input type="text" v-model="url" placeholder="Paste an image url"/>
       </div>
       <div class="result">
-        <halftone :url="url" :web="false"></halftone>
+        <halftone :url="url" :web="true"></halftone>
       </div>
       <div class="cmds">
         <button v-on:click="download()">Download</button>
